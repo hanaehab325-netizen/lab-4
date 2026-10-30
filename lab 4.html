@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab4.css">
+</head>
+
+<body>
+
+    <div class="TODO">
+
+        <h2>Todo App</h2>
+
+        <div class="input-area">
+            <input id="todoInput" type="text" placeholder="What needs doing?">
+            <button id="add">Add</button>
+            
+             <p class="tip">
+                Tip: double-click a todo to edit. Press Enter to save.
+            </p>
+        </div>
+
+        <div class="display-area">
+
+            <div class="filters">
+                <button id="all" class="active-filter">All</button>
+                <button id="active">Active</button>
+                <button id="completed">Completed</button>
+            </div>
+
+            <ul id="todoList"></ul>
+
+            <div class="footer">
+                <span id="count">0 items left</span>
+
+                <div>
+                    <button id="clearCompleted">Clear completed</button>
+                    <button id="clearAll">Clear all</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="lab4.js"></script>
+
+</body>
+</html>
